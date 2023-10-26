@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>pokedex</title>
+</head>
+<body>
+    <body>
+        <header class="header">
+            <div>
+                <!-- Conteúdo do cabeçalho, se houver -->
+                <img src="imagens/fofo.png" class="fofo">
+                <img src="imagens/logo.png">
+            </div>
+        </header>
+    <div>
+        <div>
+    <div class="procura">
+        <label for="search" class="poke"><b> Qual Pokémon você deseja procurar? </b></label>
+        <br>
+        <br>
+        <input type="text" id="search" placeholder="Digite o nome do Pokémon..." class="Pesquisar2">
+        <button id="search-button" class="Pesquisar">Pesquisar</button>
+    </div>
+    </div>
+        <form class="form"></form>
+   
+    <center>
+        <h2>Pokémons</h2>
+        <br><br>
+        <img src="#" alt="pokemon" class="pokemon__image">
+        <br>
+        <h1>
+          <span class="pokemon__number"></span> -
+          <span class="pokemon__name"></span>
+        </h1>
+        <br>
+        <div class="buttons">
+            <button class="button btn-prev">Voltar &lt;</button>
+            <button class="button btn-next">Proxímo &gt;</button>
+        </div>
+    </center>
+
+<div>
+    <div id="pokemon-list" class="pokemon-list"></div>
+    <button id="load-more-button" class="mais">Carregar Mais</button>
+</div>
+
+<footer class="footer">
+    <div>
+        <p>Desenvolvido por Rafaela Lopes</p>
+    </div>
+</footer>
+</body>
+<script src="js/script.js"></script>
+</html>

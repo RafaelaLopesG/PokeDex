@@ -1,0 +1,90 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   margin: 0;
+   padding: 0;
+   background: #f5f6df;
+}
+ 
+.procura {
+   background-color: #f4f46b;
+   color: black;
+   padding: 10px 0;
+   text-align: center;
+}
+ 
+.search button {
+   padding: 8px 16px;
+   font-size: 16px;
+   background-color: #0f40e3;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+ 
+.header, .footer {
+   background-color: #FFD700;
+   color: black;
+   text-align: center;
+   padding: 20px 0;
+}
+ 
+.pokemon-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+ 
+.pokemon-card {
+   margin: 20px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ 
+.pokemon-card img {
+   width: 150px;
+   height: 150px;
+   margin-bottom: 10px;
+}
+
+.search-bar {
+    background-color: #f6f99d;
+    padding: 10px;
+    border-radius: 5px ;
+    margin-top: -10px;
+}
+
+.poke {color: #0f40e3;
+font-size: 18px;
+}
+
+.fofo {width: 180px;}
+
+.mais {
+    background-color: #355bd8;
+    color: #f5f6df;
+    margin-left: 1400px;
+    border-radius: 10px;
+}
+
+.Pesquisar {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0f40e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Pesquisar2 {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
